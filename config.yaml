@@ -6,6 +6,8 @@ slug: "fuxa-slr"
 webui: "http://[HOST]:[PORT:1881]/home"
 panel_icon: mdi:dog
 panel_title: FUXA
+ingress: true
+ingress_port: 1881
 init: false
 arch:
   - aarch64
