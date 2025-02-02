@@ -8,7 +8,7 @@ WORKDIR /usr/src/app/FUXA
 
 # Install server
 WORKDIR /usr/src/app/FUXA/server
-RUN sed -i '/"odbc": "2.4.9",/d' ./bla.json
+RUN sed -i '/"odbc": "2.4.9",/d' ./package.json
 RUN npm install
 
 # Workaround for sqlite3 https://stackoverflow.com/questions/71894884/sqlite3-err-dlopen-failed-version-glibc-2-29-not-found
