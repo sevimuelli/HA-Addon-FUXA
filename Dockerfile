@@ -2,7 +2,7 @@ FROM node:18
 
 #Add nginx and create the run folder for nginx.
 RUN \
-  apt-get update && apt-get install nginx \
+  apt-get update && apt-get install -y nginx \
   \
   && mkdir -p /run/nginx
 
