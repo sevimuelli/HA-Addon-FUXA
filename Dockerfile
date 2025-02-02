@@ -2,8 +2,7 @@ FROM node:18
 
 #Add nginx and create the run folder for nginx.
 RUN \
-  apk --no-cache add \
-    nginx \
+  apt-get install nginx
   \
   && mkdir -p /run/nginx
 
