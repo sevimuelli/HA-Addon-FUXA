@@ -1,9 +1,8 @@
 name: "FUXA by Sevimuelli"
 description: "Easy and Web-based Process Visualization (SCADA/HMI/Dashboard) software - now for Home Assistant"
-version: "1.0.9"
+version: "1.0.10"
 url: "https://github.com/sevimuelli/HA-Addon-FUXA"
 slug: "fuxa-slr"
-webui: "http://[HOST]:[PORT:1881]/home"
 panel_icon: mdi:dog
 panel_title: FUXA
 ingress: true
