@@ -1,6 +1,6 @@
 name: "FUXA by Sevimuelli"
 description: "Easy and Web-based Process Visualization (SCADA/HMI/Dashboard) software - now for Home Assistant"
-version: "1.0.7"
+version: "1.0.8"
 url: "https://github.com/sevimuelli/HA-Addon-FUXA"
 slug: "fuxa-slr"
 webui: "http://[HOST]:[PORT:1881]/home"
